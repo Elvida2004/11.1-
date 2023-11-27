@@ -18,6 +18,7 @@ public class Main {
             int numberOfLines = 0;
             while ((line = br.readLine()) != null) {
                 numberOfLines++;
+                //Для каждой строки мы определяем количество символов и слов, используя методы строки length() и split().
                 int numberOfCharacters = line.length();
                 String[] words = line.split("\\s+");
                 int numberOfWords = words.length;
